@@ -1,0 +1,59 @@
+/*
+.container {
+    border: 1px solid red;
+    height: 400px;
+    position: relative;
+}
+
+.card {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+*/
+
+.container {
+    border: 1px solid red;
+    height: 400px;
+    position: relative;
+}
+
+.container:hover .card {
+    display: block;
+}
+
+.card {
+    display: none;
+    background-color: green;
+    opacity: 0.9;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.one {
+    position: relative;
+    top: 50%;
+    left: 45%;
+}
+/*
+.ramka {
+    height: 50px;
+    width: 50px;
+    border: 1px solid orange;
+    
+}
+
+.text {
+    position: relative;
+    background-color: black;
+    top: 40px;
+    left: 50px;
+    z-index: -1;
+}*/
